@@ -57,7 +57,7 @@ $(document).ready(function () {
             if (search === "") {
                 alert("search field is empty")
             } else {
-
+                document.getElementById('main').innerHTML = ''
                 $.ajax({
                     "async": true,
                     "crossDomain": true,
